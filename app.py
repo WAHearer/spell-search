@@ -170,6 +170,13 @@ HTML_TEMPLATE = """
         
         .header h1 { font-size: 2rem; margin-bottom: 8px; }
         .header p { opacity: 0.8; font-size: 0.95rem; }
+        .header .author { 
+            font-size: 0.8rem; 
+            opacity: 0.6; 
+            margin-top: 8px;
+            font-style: italic;
+            letter-spacing: 0.5px;
+        }
         
         /* 筛选面板 */
         .filter-panel {
@@ -431,6 +438,7 @@ HTML_TEMPLATE = """
         <div class="header">
             <h1>📜 法术查询系统</h1>
             <p>Pathfinder 法术数据库</p>
+            <div class="author">by WAHearer</div>
         </div>
         
         <div class="filter-panel">
